@@ -1,5 +1,6 @@
 # TextRecognitionAndTranslate
 This project offers an android app to identify text from an image, provide its language name and also lets user to translate the identified text to other languages. This app is developed with Firebase ML Kit's Text Recognition and Language Translation APIs.
+
 The app code contains all necessary code to build a custom language recognition and translation app. One needs to follow below steps to build this app of their own.
 
 1. Create a firebase proejct and connect it with you android studio project.
