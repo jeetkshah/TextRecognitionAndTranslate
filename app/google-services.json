@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "987368981805",
+    "firebase_url": "https://textrecognitiontranslate.firebaseio.com",
+    "project_id": "textrecognitiontranslate",
+    "storage_bucket": "textrecognitiontranslate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987368981805:android:71dd45cbcfad2219ad3fa4",
+        "android_client_info": {
+          "package_name": "com.jsd.textrecognitiontranslate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987368981805-70gl2kj8brqv605jlh46h8nbm5sbq5v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jsd.textrecognitiontranslate",
+            "certificate_hash": "9186987f700e17d8935c88a404917a6f3ee142ed"
+          }
+        },
+        {
+          "client_id": "987368981805-8p8k36i4qgljcen2jtme4690oksooek2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZpcYjs_dnOM7y6dAQsgpZdTF1LWdnWBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987368981805-8p8k36i4qgljcen2jtme4690oksooek2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recognize"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_label"
+        android:textSize="23dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Recognized: "
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txt_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_below="@id/txt"
+        android:id="@+id/lang_label"
+        android:textSize="23dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language Recognized: "
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/lang"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/lang_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
